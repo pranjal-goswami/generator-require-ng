@@ -1,0 +1,65 @@
+{
+  "name": "generator-angular-with-require",
+  "version": "0.3.5-1",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/hung-phan/generator-angular-with-require",
+  "bugs": {
+    "url": "https://github.com/hung-phan/generator-angular-with-require/issues"
+  },
+  "author": {
+    "name": "Phan Quang Hung",
+    "email": "colorvisavn@gmail.com",
+    "url": "https://github.com/hung-phan"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hung-phan/generator-angular-with-require.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "gitHead": "ff1bc5889d31c9cc89a234ade160871b60962dee",
+  "_id": "generator-angular-with-require@0.3.5-1",
+  "_shasum": "eb71ac42884efa623adae70d5099dbcfede99b20",
+  "_from": "generator-angular-with-require@latest",
+  "_npmVersion": "2.1.14",
+  "_nodeVersion": "0.10.34",
+  "_npmUser": {
+    "name": "colorvisa",
+    "email": "colorvisavn@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "colorvisa",
+      "email": "colorvisavn@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "eb71ac42884efa623adae70d5099dbcfede99b20",
+    "tarball": "http://registry.npmjs.org/generator-angular-with-require/-/generator-angular-with-require-0.3.5-1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/generator-angular-with-require/-/generator-angular-with-require-0.3.5-1.tgz"
+}

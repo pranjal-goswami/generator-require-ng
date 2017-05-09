@@ -1,0 +1,21 @@
+{
+  "name": "<%= _.slugify(appname) %>",
+  "version": "0.0.1",
+  "dependencies": {<% if (cssFramework === 'SASSBootstrap') { %>
+    "sass-bootstrap": "*",<% } %><% if (includeFontAwesome) { %>
+    "font-awesome": "*",<% } %><% if (includeLodash) { %>
+    "lodash": "*",<% } %>
+    "angular": "*",
+    "angular-resource": "*",
+    "angular-mocks": "*",
+    "angular-ui-router": "~0.2.13",<% if (includeUIBootstrap) { %>
+    "angular-bootstrap": "*",<% } %><% if (includeAngularAnimate) { %>
+    "angular-animate": "*",<% } %>
+    "jquery": "~2.1.2",<% if (includeButtonCss) { %>
+    "Buttons": "*",<% } %><% if (includeAnimateCss) { %>
+    "animate-sass": "*",<% } %><% if (includeModernizr) { %>
+    "modernizr": "*",<% } %>
+    "requirejs": "*"
+  }
+}
+
